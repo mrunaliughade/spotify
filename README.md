@@ -100,8 +100,8 @@ CREATE INDEX idx_artist ON spotify(artist);
 
 | Metric         | Before Index | After Index |
 | -------------- | ------------ | ----------- |
-| Execution Time | ~7 ms        | 0.153 ms    |
-| Planning Time  | 0.17 ms      | 0.152 ms    |
+| Execution Time | ~7 ms        | 0.2 ms    |
+| Planning Time  | 0.09 ms      | 0.129 ms    |
 
 The index made a significant difference and reinforced why indexing matters in production-level database work.
 
